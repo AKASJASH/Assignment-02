@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive-football-main</title>
+    <script src="https://kit.fontawesome.com/a16f7c4ecd.js" crossorigin="anonymous"></script>
     <style>
         h1 {
             font-size: 100px;
+            text-align: left;
         }
 
         .heading {
@@ -18,6 +20,7 @@
 
         p {
             font-size: 70px;
+            text-align: left;
         }
 
         nav ul {
@@ -98,6 +101,9 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             margin: 30px 6%;
+            text-align: center;
+
+
 
         }
 
@@ -106,15 +112,18 @@
             border-radius: 15px;
             border-width: 50%;
             padding: 25px;
-
             margin-right: 100px;
             margin-top: 100px;
-
         }
 
         .logo {
-            align-content: center;
-            margin-left: 40%;
+            text-align: center;
+        }
+        .wrapper{
+            display: inline-flex;
+            margin-left: 45%;
+            cursor: pointer;
+            
         }
     </style>
 </head>
@@ -269,34 +278,36 @@
         <div class="match"><img src="responsive-football-main/images/match.png" alt=""></div>
     </section>
     <div class="logo"><img src="responsive-football-main/images/Logo.png" alt=""></div>
-    <div class="wrapper">
-        <div class="button">
-            <div class="icon">
-                <i class="fab fa-facebook"></i>
-            </div>
-            <span>Facebook</span>
-        </div>
+    <section class="small-icon">
         <div class="wrapper">
             <div class="button">
                 <div class="icon">
-                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook"></i>
                 </div>
-                <span>youtube</span>
+                <span>Facebook</span>
             </div>
             <div class="wrapper">
                 <div class="button">
                     <div class="icon">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
                     </div>
-                    <span>Twitter</span>
+                    <span>Youtube</span>
                 </div>
                 <div class="wrapper">
                     <div class="button">
                         <div class="icon">
-                            <i class="fab fa-instraggram"></i>
+                            <i class="fab fa-twitter"></i>
                         </div>
-                        <span>Instraggram</span>
+                        <span>Twitter</span>
                     </div>
+                    <div class="wrapper">
+                        <div class="button">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <span>Instraggram</span>
+                        </div>
+    </section>
 </body>
 
 </html>
